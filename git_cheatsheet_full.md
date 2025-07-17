@@ -163,6 +163,10 @@ git rebase --abort
 
 git rebase --continue
 # Continue rebase after conflict resolution
+
+
+git rebase -i HEAD~3
+# merge and change 3 commit message with 1 message
 ```
 
 ---
@@ -214,6 +218,14 @@ git revert <commit>
 
 
 git reset --soft <commit>
+```
+
+---
+
+## 🔄 CHERRY-PICK
+
+```bash
+git cherry-pick <commit>
 ```
 
 ---
